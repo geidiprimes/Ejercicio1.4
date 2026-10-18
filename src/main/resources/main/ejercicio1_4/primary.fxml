@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ejercicio1_4.App">
+   <HBox spacing="20">
+      <VBox spacing="10">
+         <Label text="Tabla del:" />
+         <TextField fx:id="txtNumero" maxWidth="60" promptText="5" />
+      </VBox>
+      <VBox spacing="10">
+         <Button text="Calcular" onAction="#calcular" />
+         <Button text="Limpiar" onAction="#limpiar" />
+      </VBox>
+   </HBox>
+   <TextArea fx:id="txtTabla" editable="false" prefHeight="220" prefWidth="240" />
+</VBox>
